@@ -9,4 +9,4 @@ Contenido:
 
 - Fichero export.sh, es un script que te permite exportar los datos de una base de datos postgres, tabla por tabla, a un fichero .txt utilizando como delimitador la tabulación, dichos ficheros se almacenan en la carpeta Datos.
 
--Fichero export.sh, es un script que te permite importar los datos que se incluyen en los fichero .txt a la base de datos Oracle.
+- Fichero export.sh, es un script que te permite importar los datos que se incluyen en los fichero .txt a la base de datos Oracle.
