@@ -11,10 +11,10 @@ read user
 echo 'Contraseña: '
 read -s pwd
 echo
+#concetarse con un usuario
+PGPASSWORD=$pwd psql -h localhost -U $user -d $bd
 ###
 exportar(){
-	#concetarse con un usuario
-	PGPASSWORD=$pwd psql -h localhost -U $user -d $bd
 	#creacion de fichero datos
 	echo 'Por favor, introduzca el nombre de la tabla de la cual desea exportar los datos: '
 	read tabla
