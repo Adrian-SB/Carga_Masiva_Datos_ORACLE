@@ -3,11 +3,11 @@
 echo '-------------------------------'
 echo 'CARGA DE DATOS MASIVA EN ORACLE'
 echo '-------------------------------'
-echo 'Por favor, introduzca el nombre de usuario de Oracle y su contraseña(adri/adri): '
+echo 'Por favor, introduzca el nombre de usuario de Oracle y su contraseña: '
 echo 'Usuario: ' 
 read user
 echo 'Contraseña: ' 
-read pwd
+read -s pwd
 echo
 #####Funcion importar
 function importar(){
