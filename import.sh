@@ -17,9 +17,9 @@ echo
 	}
 echo "¿Desea importar más datos?"
 read result
-	if [ $result == 'si' ] then
+	if [ $result == 'si' ]; then
 		importar
 	else
 		echo 'Recuerde ojear el fichero de log que se encuentra en la ruta /tmp/bd.log' 
 		exit
-fi
+	fi
