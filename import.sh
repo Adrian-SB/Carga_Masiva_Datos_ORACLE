@@ -21,5 +21,4 @@ read result
 		importar
 	else
 		echo 'Recuerde ojear el fichero de log que se encuentra en la ruta /tmp/bd.log' 
-		exit
 	fi
