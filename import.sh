@@ -14,7 +14,7 @@ function importar(){
 echo 'Introduca el nombre de la tabla a la que desea importar los datos: \n'
 read tabla
 echo 
-sqlldr $user/$pwd control='Cargas/"$tabla".ctl' data='Datos/"$tabla".txt' log='/tmp/bd.log'
+sqlldr $user/$pwd control='Cargas/viveros.ctl' data='Datos/viveros.txt' log='/tmp/bd.log'
 echo '\nImportación finalizada\n'
 }
 ###
